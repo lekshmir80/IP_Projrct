@@ -7,9 +7,11 @@
 """
 import tkinter as tk
 import ipaddress as ip
+import os
 
+os.system("banner Subnet Calculator")
 win = tk.Tk()
-win.title("ERP Project")
+win.title("Subnet Calculator")
 win.geometry("600x400")
 
 left_fr = tk.Frame(win)
